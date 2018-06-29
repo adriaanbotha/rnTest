@@ -247,17 +247,17 @@ export default {
 
 	// Text
 	textColor: "#000",
-	inverseTextColor: "#fff",
+	inverseTextColor: "#8e8e93",
 	noteFontSize: 14,
 
 	// Title
 	titleFontfamily: platform === "ios" ? "System" : "Roboto_medium",
 	titleFontSize: platform === "ios" ? 17 : 19,
 	subTitleFontSize: platform === "ios" ? 12 : 14,
-	subtitleColor: platform === "ios" ? "#8e8e93" : "#FFF",
+	subtitleColor: platform === "ios" ? "#8e8e93" : "#8e8e93",
 
 	// New Variable
-	titleFontColor: platform === "ios" ? "#000" : "#FFF",
+	titleFontColor: platform === "ios" ? "#000" : "#000",
 
 	// Other
 	borderRadiusBase: platform === "ios" ? 5 : 2,

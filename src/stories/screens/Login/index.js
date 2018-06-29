@@ -21,7 +21,7 @@ class Login extends React.Component<Props, State> {
                         <Image style={{width: 260, height: 80}} source={require("../../../../assets/site-logo.png")} />
 
 						<View padder>
-							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }}>
+							<Text style={{ color: "#000" }}>
 								Improving mental health and wellbeing
 							</Text>
 						</View>
